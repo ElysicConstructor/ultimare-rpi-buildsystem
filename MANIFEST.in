@@ -1,0 +1,12 @@
+# Alle JSON-Konfigurationsdateien
+recursive-include src/conf *.json
+
+# Alle Patch-Dateien
+recursive-include patches *.patch
+
+# Optional: alle Skripte im utils/core Ordner
+recursive-include src/utils *.py
+recursive-include src/core *.py
+
+# README einbeziehen
+include README.md
