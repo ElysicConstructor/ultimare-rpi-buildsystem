@@ -1,0 +1,16 @@
+{
+    "name": "busybox",
+    "version": "1.36.1",
+    "url": "https://busybox.net/downloads/busybox-1.36.1.tar.bz2",
+    "sha256": "auto",
+    "config": {
+        "cross_compile": "aarch64-linux-gnu-",
+        "static": true
+    },
+    "disabled_features": [
+        "CONFIG_TC"
+    ],
+    "enabled_features": [
+        "CONFIG_STATIC"
+    ]
+}
